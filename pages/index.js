@@ -1,9 +1,9 @@
-import { Avatar } from "@material-ui/core";
-import Head from "next/head";
-import styled from "styled-components";
+import { Avatar } from '@material-ui/core'
+import Head from 'next/head'
+import styled from 'styled-components'
 
 const HomeContainer = styled.div`
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   p {
     font-weight: 400;
@@ -20,7 +20,7 @@ const HomeContainer = styled.div`
   a {
     border-bottom: 1px solid #2296f3;
   }
-`;
+`
 
 const TopStrip = styled.div`
   background: linear-gradient(
@@ -31,7 +31,7 @@ const TopStrip = styled.div`
   );
   width: 100%;
   height: 15px;
-`;
+`
 
 const NavbarContainer = styled.div`
   width: 100%;
@@ -39,7 +39,7 @@ const NavbarContainer = styled.div`
   justify-content: center;
   padding: 32px;
   background-color: #fbfbfb;
-`;
+`
 
 const NavbarDiv = styled.div`
   display: flex;
@@ -47,7 +47,7 @@ const NavbarDiv = styled.div`
   width: 100%;
   padding: 1rem;
   background-color: #fbfbfb;
-`;
+`
 
 const HeaderContainer = styled.div`
   width: 100%;
@@ -56,11 +56,11 @@ const HeaderContainer = styled.div`
   background-color: #fbfbfb;
   padding: 0px 32px;
   padding-bottom: 6rem;
-`;
+`
 const Header = styled.div`
   max-width: 600px;
   flex: 1;
-`;
+`
 
 const Title = styled.h1`
   line-height: 60px;
@@ -69,19 +69,19 @@ const Title = styled.h1`
   @media screen and (min-width: 48em) {
     font-size: 3rem;
   }
-`;
+`
 
 const TitleMark = styled.mark`
   background-color: #99cef75e;
   padding: 3px 6px;
-`;
+`
 
 const Desc = styled.p`
   font-size: 1.125rem;
   line-height: 27px;
   color: #2d3748;
   margin-bottom: 36px;
-`;
+`
 
 const Button = styled.a`
   background-color: #2296f3;
@@ -93,7 +93,7 @@ const Button = styled.a`
   color: white;
   font-weight: 700;
   cursor: pointer;
-`;
+`
 
 const AboutCourseContainer = styled.div`
   width: 100%;
@@ -101,24 +101,24 @@ const AboutCourseContainer = styled.div`
   justify-content: center;
   margin: 2rem 0;
   padding: 4px 32px;
-`;
+`
 const AboutCourse = styled.div`
   max-width: 600px;
-`;
+`
 
 const AboutCourseTitle = styled.h3`
   font-size: 1.65rem;
-`;
+`
 
 export default function Home() {
   return (
     <HomeContainer>
       <Head>
         <title>Sanskar Tiwari Portfolio</title>
-        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
-          rel='shortcut icon'
-          href='https://user-images.githubusercontent.com/55942632/114259224-0cbc5c00-99ea-11eb-83cc-4b98d4752c68.png'
+          rel="shortcut icon"
+          href="https://user-images.githubusercontent.com/55942632/114259224-0cbc5c00-99ea-11eb-83cc-4b98d4752c68.png"
         />
       </Head>
       <TopStrip></TopStrip>
@@ -128,18 +128,18 @@ export default function Home() {
       <HeaderContainer>
         <Header>
           <Avatar
-            alt='blurweb.app'
-            src='https://user-images.githubusercontent.com/55942632/112448635-9e846200-8d78-11eb-8d3c-a7e6a68d8e57.jpeg'
-            style={{ height: "120px", width: "120px" }}
+            alt="blurweb.app"
+            src="https://user-images.githubusercontent.com/55942632/112448635-9e846200-8d78-11eb-8d3c-a7e6a68d8e57.jpeg"
+            style={{ height: '120px', width: '120px' }}
           />
           <Title>I'm Sanskar Tiwari</Title>
           <Desc>
             I am Developer, Writer and Creator with Love for Great UI and apps
-            that makes impact in people life. I teach on{" "}
-            <a href='https://www.youtube.com/SanskarTiwari' target='_blank'>
+            that makes impact in people life. I teach on{' '}
+            <a href="https://www.youtube.com/SanskarTiwari" target="_blank">
               Youtube
             </a>
-            , write blog at <a href='http://flutternerd.com'>flutternerd.com</a>
+            , write blog at <a href="http://flutternerd.com">flutternerd.com</a>
             .
           </Desc>
 
@@ -155,15 +155,15 @@ export default function Home() {
 
           {/*  */}
 
-          <div style={{ display: "flex" }}>
+          <div style={{ display: 'flex' }}>
             <Avatar
-              alt='blurweb.app'
-              src='https://blurweb.app/assets/logo.svg'
-              style={{ height: "70px", width: "70px" }}
+              alt="blurweb.app"
+              src="https://blurweb.app/assets/logo.svg"
+              style={{ height: '70px', width: '70px' }}
             />
 
-            <div style={{ marginLeft: "16px" }}>
-              <p style={{ fontWeight: "600" }}>
+            <div style={{ marginLeft: '16px' }}>
+              <p style={{ fontWeight: '600' }}>
                 blurweb.app <span>(chrome extension)</span>
               </p>
               <p>
@@ -176,33 +176,33 @@ export default function Home() {
             </div>
           </div>
 
-          <div style={{ display: "flex" }}>
+          <div style={{ display: 'flex' }}>
             <Avatar
-              alt='FlutterDevConnect'
+              alt="FlutterDevConnect"
               style={{
-                height: "70px",
-                width: "70px",
-                backgroundColor: "#2296f3",
+                height: '70px',
+                width: '70px',
+                backgroundColor: '#2296f3'
               }}
             >
               F
             </Avatar>
-            <div style={{ marginLeft: "16px" }}>
-              <p style={{ fontWeight: "600" }}>
+            <div style={{ marginLeft: '16px' }}>
+              <p style={{ fontWeight: '600' }}>
                 flutterdevconnect.web.app <span>(Web | Android | IOS)</span>
               </p>
               <p>
-                Fully Functioning chat app got greate response on{" "}
+                Fully Functioning chat app got greate response on{' '}
                 <a
-                  href='https://www.linkedin.com/feed/update/urn:li:activity:6661982998658977793/'
-                  target='_blank'
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:6661982998658977793/"
+                  target="_blank"
                 >
                   linkedin
-                </a>{" "}
-                and i later taught to build{" "}
+                </a>{' '}
+                and i later taught to build{' '}
                 <a
-                  href='https://www.youtube.com/watch?v=FTju8w4zEno&list=PLBxWkM8PLHcr2vkdY2n9rIcxjZ9Th3Us7&index=1&t=0s'
-                  target='_blank'
+                  href="https://www.youtube.com/watch?v=FTju8w4zEno&list=PLBxWkM8PLHcr2vkdY2n9rIcxjZ9Th3Us7&index=1&t=0s"
+                  target="_blank"
                 >
                   on youtube
                 </a>
@@ -213,29 +213,29 @@ export default function Home() {
 
           <AboutCourseTitle>Live Workshops</AboutCourseTitle>
 
-          <div style={{ display: "flex" }}>
+          <div style={{ display: 'flex' }}>
             <Avatar
-              alt='FlutterDevConnect'
-              src='https://dscwow.tech/favicon.png'
+              alt="FlutterDevConnect"
+              src="https://dscwow.tech/favicon.png"
               style={{
-                height: "70px",
-                width: "70px",
+                height: '70px',
+                width: '70px'
               }}
             >
               F
             </Avatar>
-            <div style={{ marginLeft: "16px" }}>
-              <p style={{ fontWeight: "600" }}>dscwow.tech</p>
+            <div style={{ marginLeft: '16px' }}>
+              <p style={{ fontWeight: '600' }}>dscwow.tech</p>
               <p>
                 DSC Week Of Wonders, aka DSC WOW. A weeklong event consisting of
                 a 4 days of workshops/sessions and a 48 hours hackathon named
-                CodeOffDuty. I took a{" "}
+                CodeOffDuty. I took a{' '}
                 <a
-                  href='https://www.youtube.com/watch?v=M5eFIlXT8Rc&t=6218s'
-                  target='_blank'
+                  href="https://www.youtube.com/watch?v=M5eFIlXT8Rc&t=6218s"
+                  target="_blank"
                 >
                   workshop on Day3
-                </a>{" "}
+                </a>{' '}
                 to help student learn building apps for hackathon
               </p>
             </div>
@@ -243,24 +243,24 @@ export default function Home() {
 
           <AboutCourseTitle>Blogs</AboutCourseTitle>
 
-          <div style={{ display: "flex" }}>
+          <div style={{ display: 'flex' }}>
             <Avatar
-              alt='FlutterDevConnect'
-              src='https://user-images.githubusercontent.com/55942632/114259258-35dcec80-99ea-11eb-8ac2-60250790ee5f.png'
+              alt="FlutterDevConnect"
+              src="https://user-images.githubusercontent.com/55942632/114259258-35dcec80-99ea-11eb-8ac2-60250790ee5f.png"
               style={{
-                height: "70px",
-                width: "70px",
+                height: '70px',
+                width: '70px'
               }}
             >
               F
             </Avatar>
-            <div style={{ marginLeft: "16px" }}>
-              <p style={{ fontWeight: "600" }}>flutternerd.com</p>
+            <div style={{ marginLeft: '16px' }}>
+              <p style={{ fontWeight: '600' }}>flutternerd.com</p>
               <p>Flutter blog to Learn and master flutter app development</p>
             </div>
           </div>
         </AboutCourse>
       </AboutCourseContainer>
     </HomeContainer>
-  );
+  )
 }
